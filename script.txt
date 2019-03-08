@@ -1,0 +1,1044 @@
+Loading object inspector: Inspector
+======================================================
+Running Test: ClassA
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 3
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+======================================================
+======================================================
+Running Test: ClassA
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 12
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+======================================================
+======================================================
+Running Test: ClassB
+------------------------------------------------------
+Inside inspector: ClassB (recursive = true)
+Immediate superclass: ClassC
+Interface 1: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassB
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: func3
+Parameter: int
+Return Type: void
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val3 = 34
+Field type: int
+Field modifier: private
+------------------------------------------------------
+---- Inspecting Field Classes ----
+Field: val = ClassA
+Field type: class ClassA
+Field modifier: private
+******************
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 3
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+******************
+Field: val2 = ClassA
+Field type: class ClassA
+Field modifier: private
+******************
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 12
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+******************
+Field: val3 = null
+Field type: class ClassA
+Field modifier: private
+******************
+======================================================
+======================================================
+Running Test: ClassD
+------------------------------------------------------
+Inside inspector: ClassD (recursive = true)
+Immediate superclass: java.lang.Object
+  *CONSTRUCTOR  1*
+Constructor: ClassD
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassD
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 2*
+Method: getVal3
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val3 = 32
+Field type: int
+Field modifier: private
+------------------------------------------------------
+---- Inspecting Field Classes ----
+Field: val = ClassA
+Field type: class ClassA
+Field modifier: private
+******************
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 17
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+******************
+Field: val2 = null
+Field type: class ClassA
+Field modifier: private static
+******************
+======================================================
+======================================================
+Running Test: ClassD
+------------------------------------------------------
+Inside inspector: ClassD (recursive = true)
+Immediate superclass: java.lang.Object
+  *CONSTRUCTOR  1*
+Constructor: ClassD
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassD
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 2*
+Method: getVal3
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val3 = 34
+Field type: int
+Field modifier: private
+------------------------------------------------------
+---- Inspecting Field Classes ----
+Field: val = ClassA
+Field type: class ClassA
+Field modifier: private
+******************
+------------------------------------------------------
+Inside inspector: ClassA (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Runnable
+  *CONSTRUCTOR  1*
+Constructor: ClassA
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: ClassA
+Parameter 0 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: setVal
+Exception: java.lang.Exception
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 4*
+Method: printSomething
+Return Type: void
+Modifier: private
+  *Method 5*
+Method: getVal
+Return Type: int
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: val = 17
+Field type: int
+Field modifier: private
+  *Field* 
+Field: val2 = 0.2
+Field type: double
+Field modifier: private
+  *Field* 
+Field: val3 = true
+Field type: boolean
+Field modifier: private
+------------------------------------------------------
+******************
+Field: val2 = null
+Field type: class ClassA
+Field modifier: private static
+******************
+======================================================
+======================================================
+Running Test: [LClassB;@42a57993
+here
+------------------------------------------------------
+                   Inspecting Array                   
+Name of the Array: [LClassB;
+Component Type: class ClassB
+Array Length: 12
+Immediate superclass: ClassC
+Interface 1: java.lang.Cloneable
+Interface 2: java.io.Serializable
+  *CONSTRUCTOR  1*
+Constructor: ClassB
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: func3
+Parameter: int
+Return Type: void
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field type: int
+Field modifier: private
+------------------------------------------------------
+---- Inspecting Field Classes ----
+******************
+======================================================
+======================================================
+Running Test: [[LClassB;@75b84c92
+here
+------------------------------------------------------
+                   Inspecting Array                   
+Name of the Array: [[LClassB;
+Component Type: class [LClassB;
+Array Length: 12
+Immediate superclass: ClassC
+Interface 1: java.lang.Cloneable
+Interface 2: java.io.Serializable
+  *CONSTRUCTOR  1*
+Constructor: ClassB
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: run
+Return Type: void
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: func3
+Parameter: int
+Return Type: void
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field type: int
+Field modifier: private
+------------------------------------------------------
+---- Inspecting Field Classes ----
+******************
+======================================================
+======================================================
+Running Test: Test String
+------------------------------------------------------
+Inside inspector: java.lang.String (recursive = true)
+Immediate superclass: java.lang.Object
+Interface 1: java.io.Serializable
+Interface 2: java.lang.Comparable
+Interface 3: java.lang.CharSequence
+  *CONSTRUCTOR  1*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: int
+Parameter 2 type: int
+Modifier: public
+  *CONSTRUCTOR  2*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: java.nio.charset.Charset
+Modifier: public
+  *CONSTRUCTOR  3*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: java.lang.String
+Modifier: public
+  *CONSTRUCTOR  4*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: int
+Parameter 2 type: int
+Parameter 3 type: java.nio.charset.Charset
+Modifier: public
+  *CONSTRUCTOR  5*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: int
+Parameter 2 type: int
+Parameter 3 type: java.lang.String
+Modifier: public
+  *CONSTRUCTOR  6*
+Constructor: java.lang.String
+Parameter 0 type: [C
+Parameter 1 type: boolean
+Modifier: 
+  *CONSTRUCTOR  7*
+Constructor: java.lang.String
+Parameter 0 type: java.lang.StringBuilder
+Modifier: public
+  *CONSTRUCTOR  8*
+Constructor: java.lang.String
+Parameter 0 type: java.lang.StringBuffer
+Modifier: public
+  *CONSTRUCTOR  9*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Modifier: public
+  *CONSTRUCTOR  10*
+Constructor: java.lang.String
+Parameter 0 type: [I
+Parameter 1 type: int
+Parameter 2 type: int
+Modifier: public
+  *CONSTRUCTOR  11*
+Constructor: java.lang.String
+Modifier: public
+  *CONSTRUCTOR  12*
+Constructor: java.lang.String
+Parameter 0 type: [C
+Modifier: public
+  *CONSTRUCTOR  13*
+Constructor: java.lang.String
+Parameter 0 type: java.lang.String
+Modifier: public
+  *CONSTRUCTOR  14*
+Constructor: java.lang.String
+Parameter 0 type: [C
+Parameter 1 type: int
+Parameter 2 type: int
+Modifier: public
+  *CONSTRUCTOR  15*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: int
+Modifier: public
+  *CONSTRUCTOR  16*
+Constructor: java.lang.String
+Parameter 0 type: [B
+Parameter 1 type: int
+Parameter 2 type: int
+Parameter 3 type: int
+Modifier: public
+------------------------------------------------------
+  *Method 1*
+Method: equals
+Parameter: java.lang.Object
+Return Type: boolean
+Modifier: public
+  *Method 2*
+Method: toString
+Return Type: java.lang.String
+Modifier: public
+  *Method 3*
+Method: hashCode
+Return Type: int
+Modifier: public
+  *Method 4*
+Method: compareTo
+Parameter: java.lang.String
+Return Type: int
+Modifier: public
+  *Method 5*
+Method: compareTo
+Parameter: java.lang.Object
+Return Type: int
+Modifier: public volatile
+  *Method 6*
+Method: indexOf
+Parameter: java.lang.String
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 7*
+Method: indexOf
+Parameter: java.lang.String
+Return Type: int
+Modifier: public
+  *Method 8*
+Method: indexOf
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 9*
+Method: indexOf
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 10*
+Method: indexOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: static
+  *Method 11*
+Method: indexOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: java.lang.String
+Parameter: int
+Return Type: int
+Modifier: static
+  *Method 12*
+Method: valueOf
+Parameter: int
+Return Type: java.lang.String
+Modifier: public static
+  *Method 13*
+Method: valueOf
+Parameter: long
+Return Type: java.lang.String
+Modifier: public static
+  *Method 14*
+Method: valueOf
+Parameter: float
+Return Type: java.lang.String
+Modifier: public static
+  *Method 15*
+Method: valueOf
+Parameter: boolean
+Return Type: java.lang.String
+Modifier: public static
+  *Method 16*
+Method: valueOf
+Parameter: [C
+Return Type: java.lang.String
+Modifier: public static
+  *Method 17*
+Method: valueOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Return Type: java.lang.String
+Modifier: public static
+  *Method 18*
+Method: valueOf
+Parameter: java.lang.Object
+Return Type: java.lang.String
+Modifier: public static
+  *Method 19*
+Method: valueOf
+Parameter: char
+Return Type: java.lang.String
+Modifier: public static
+  *Method 20*
+Method: valueOf
+Parameter: double
+Return Type: java.lang.String
+Modifier: public static
+  *Method 21*
+Method: charAt
+Parameter: int
+Return Type: char
+Modifier: public
+  *Method 22*
+Method: checkBounds
+Parameter: [B
+Parameter: int
+Parameter: int
+Return Type: void
+Modifier: private static
+  *Method 23*
+Method: codePointAt
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 24*
+Method: codePointBefore
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 25*
+Method: codePointCount
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 26*
+Method: compareToIgnoreCase
+Parameter: java.lang.String
+Return Type: int
+Modifier: public
+  *Method 27*
+Method: concat
+Parameter: java.lang.String
+Return Type: java.lang.String
+Modifier: public
+  *Method 28*
+Method: contains
+Parameter: java.lang.CharSequence
+Return Type: boolean
+Modifier: public
+  *Method 29*
+Method: contentEquals
+Parameter: java.lang.CharSequence
+Return Type: boolean
+Modifier: public
+  *Method 30*
+Method: contentEquals
+Parameter: java.lang.StringBuffer
+Return Type: boolean
+Modifier: public
+  *Method 31*
+Method: copyValueOf
+Parameter: [C
+Return Type: java.lang.String
+Modifier: public static
+  *Method 32*
+Method: copyValueOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Return Type: java.lang.String
+Modifier: public static
+  *Method 33*
+Method: endsWith
+Parameter: java.lang.String
+Return Type: boolean
+Modifier: public
+  *Method 34*
+Method: equalsIgnoreCase
+Parameter: java.lang.String
+Return Type: boolean
+Modifier: public
+  *Method 35*
+Method: format
+Parameter: java.util.Locale
+Parameter: java.lang.String
+Parameter: [Ljava.lang.Object;
+Return Type: java.lang.String
+Modifier: public static transient
+  *Method 36*
+Method: format
+Parameter: java.lang.String
+Parameter: [Ljava.lang.Object;
+Return Type: java.lang.String
+Modifier: public static transient
+  *Method 37*
+Method: getBytes
+Parameter: int
+Parameter: int
+Parameter: [B
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 38*
+Method: getBytes
+Parameter: java.nio.charset.Charset
+Return Type: [B
+Modifier: public
+  *Method 39*
+Method: getBytes
+Exception: java.io.UnsupportedEncodingException
+Parameter: java.lang.String
+Return Type: [B
+Modifier: public
+  *Method 40*
+Method: getBytes
+Return Type: [B
+Modifier: public
+  *Method 41*
+Method: getChars
+Parameter: int
+Parameter: int
+Parameter: [C
+Parameter: int
+Return Type: void
+Modifier: public
+  *Method 42*
+Method: getChars
+Parameter: [C
+Parameter: int
+Return Type: void
+Modifier: 
+  *Method 43*
+Method: indexOfSupplementary
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: private
+  *Method 44*
+Method: intern
+Return Type: java.lang.String
+Modifier: public native
+  *Method 45*
+Method: isEmpty
+Return Type: boolean
+Modifier: public
+  *Method 46*
+Method: join
+Parameter: java.lang.CharSequence
+Parameter: [Ljava.lang.CharSequence;
+Return Type: java.lang.String
+Modifier: public static transient
+  *Method 47*
+Method: join
+Parameter: java.lang.CharSequence
+Parameter: java.lang.Iterable
+Return Type: java.lang.String
+Modifier: public static
+  *Method 48*
+Method: lastIndexOf
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 49*
+Method: lastIndexOf
+Parameter: java.lang.String
+Return Type: int
+Modifier: public
+  *Method 50*
+Method: lastIndexOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: java.lang.String
+Parameter: int
+Return Type: int
+Modifier: static
+  *Method 51*
+Method: lastIndexOf
+Parameter: java.lang.String
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 52*
+Method: lastIndexOf
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 53*
+Method: lastIndexOf
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: [C
+Parameter: int
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: static
+  *Method 54*
+Method: lastIndexOfSupplementary
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: private
+  *Method 55*
+Method: length
+Return Type: int
+Modifier: public
+  *Method 56*
+Method: matches
+Parameter: java.lang.String
+Return Type: boolean
+Modifier: public
+  *Method 57*
+Method: nonSyncContentEquals
+Parameter: java.lang.AbstractStringBuilder
+Return Type: boolean
+Modifier: private
+  *Method 58*
+Method: offsetByCodePoints
+Parameter: int
+Parameter: int
+Return Type: int
+Modifier: public
+  *Method 59*
+Method: regionMatches
+Parameter: int
+Parameter: java.lang.String
+Parameter: int
+Parameter: int
+Return Type: boolean
+Modifier: public
+  *Method 60*
+Method: regionMatches
+Parameter: boolean
+Parameter: int
+Parameter: java.lang.String
+Parameter: int
+Parameter: int
+Return Type: boolean
+Modifier: public
+  *Method 61*
+Method: replace
+Parameter: char
+Parameter: char
+Return Type: java.lang.String
+Modifier: public
+  *Method 62*
+Method: replace
+Parameter: java.lang.CharSequence
+Parameter: java.lang.CharSequence
+Return Type: java.lang.String
+Modifier: public
+  *Method 63*
+Method: replaceAll
+Parameter: java.lang.String
+Parameter: java.lang.String
+Return Type: java.lang.String
+Modifier: public
+  *Method 64*
+Method: replaceFirst
+Parameter: java.lang.String
+Parameter: java.lang.String
+Return Type: java.lang.String
+Modifier: public
+  *Method 65*
+Method: split
+Parameter: java.lang.String
+Return Type: [Ljava.lang.String;
+Modifier: public
+  *Method 66*
+Method: split
+Parameter: java.lang.String
+Parameter: int
+Return Type: [Ljava.lang.String;
+Modifier: public
+  *Method 67*
+Method: startsWith
+Parameter: java.lang.String
+Parameter: int
+Return Type: boolean
+Modifier: public
+  *Method 68*
+Method: startsWith
+Parameter: java.lang.String
+Return Type: boolean
+Modifier: public
+  *Method 69*
+Method: subSequence
+Parameter: int
+Parameter: int
+Return Type: java.lang.CharSequence
+Modifier: public
+  *Method 70*
+Method: substring
+Parameter: int
+Return Type: java.lang.String
+Modifier: public
+  *Method 71*
+Method: substring
+Parameter: int
+Parameter: int
+Return Type: java.lang.String
+Modifier: public
+  *Method 72*
+Method: toCharArray
+Return Type: [C
+Modifier: public
+  *Method 73*
+Method: toLowerCase
+Parameter: java.util.Locale
+Return Type: java.lang.String
+Modifier: public
+  *Method 74*
+Method: toLowerCase
+Return Type: java.lang.String
+Modifier: public
+  *Method 75*
+Method: toUpperCase
+Return Type: java.lang.String
+Modifier: public
+  *Method 76*
+Method: toUpperCase
+Parameter: java.util.Locale
+Return Type: java.lang.String
+Modifier: public
+  *Method 77*
+Method: trim
+Return Type: java.lang.String
+Modifier: public
+------------------------------------------------------
+  *Field* 
+Field: hash = 0
+Field type: int
+Field modifier: private
+  *Field* 
+Field: serialVersionUID = -6849794470754667710
+Field type: long
+Field modifier: private static final
+------------------------------------------------------
+---- Inspecting Field Classes ----
+Field: value = [C@232204a1
+Field type: class [C
+Field modifier: private final
+******************
+here
+------------------------------------------------------
+                   Inspecting Array                   
+Name of the Array: [C
+Component Type: char
+Array Length: 11
+======================================================

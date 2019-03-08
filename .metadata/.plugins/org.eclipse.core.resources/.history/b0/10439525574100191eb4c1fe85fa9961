@@ -7,7 +7,7 @@ public class Inspector extends ObjectInspector{
 	
 	public Inspector() {}	
 	
-	public Class<? extends Object> getClass( Object obj )
+	private Class<? extends Object> getClass( Object obj )
 	{
 		String fullName = obj.getClass().getName();		
 		String cleanName = fullName.split(";")[0];
@@ -82,13 +82,11 @@ public class Inspector extends ObjectInspector{
 		 
 	}
 	
-	
 	public static boolean isArray(Object obj) {
 		     if (obj != null)
 		        return obj.getClass().isArray();
 		     return false;
 	}
-	
 	
     //-----------------------------------------------------------
 	/* Inspect the objects in fields
@@ -118,8 +116,8 @@ public class Inspector extends ObjectInspector{
 			 System.out.println("Field modifier: " + retval);}
 			 catch(Exception e1) {}
 			 
-			 
-			 
+//			 if(f.get(obj).getClass().isArray())
+			
 			 /*
 			  * while all the objects to inspect item should be object
 			  * inspect that object recursively.

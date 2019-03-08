@@ -7,7 +7,7 @@ public class Inspector extends ObjectInspector{
 	
 	public Inspector() {}	
 	
-	public Class<? extends Object> getClass( Object obj )
+	private Class<? extends Object> getClass( Object obj )
 	{
 		String fullName = obj.getClass().getName();		
 		String cleanName = fullName.split(";")[0];
@@ -118,8 +118,7 @@ public class Inspector extends ObjectInspector{
 			 System.out.println("Field modifier: " + retval);}
 			 catch(Exception e1) {}
 			 
-			 
-			 
+			
 			 /*
 			  * while all the objects to inspect item should be object
 			  * inspect that object recursively.
@@ -152,6 +151,9 @@ public class Inspector extends ObjectInspector{
 		  * getDeclaredFields() include all field in the current class
 		  * no matter the accessibility
 		  */
+		 if(ObjClass.getSuperclass() != null)
+				inspectFields(obj, ObjClass.getSuperclass() , objectsToInspect);
+		 
 		 for( int i = 0; i < ObjClass.getDeclaredFields().length; i++)
 		 {
 			 
@@ -206,8 +208,7 @@ public class Inspector extends ObjectInspector{
 		/*  keep inspect of the parent class and keep track of objects 
 		 * that is still needed to be inspected
 		 */
-		if(ObjClass.getSuperclass() != null)
-			inspectFields(obj, ObjClass.getSuperclass() , objectsToInspect);
+		
 	 }
 
 	 

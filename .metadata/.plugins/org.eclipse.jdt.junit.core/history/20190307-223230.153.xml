@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="InspectorTest" project="A2" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="InspectorTest" time="0.009">
+    <testcase name="inspectMethodsTestClassA" classname="InspectorTest" time="0.004"/>
+    <testcase name="inspectMethodsTestClassB" classname="InspectorTest" time="0.003"/>
+    <testcase name="getClassTest" classname="InspectorTest" time="0.0"/>
+    <testcase name="inspectConstructorsClassA" classname="InspectorTest" time="0.001"/>
+    <testcase name="inspectConstructorsClassB" classname="InspectorTest" time="0.0"/>
+    <testcase name="inspectConstructorsClassD" classname="InspectorTest" time="0.001"/>
+  </testsuite>
+</testrun>
